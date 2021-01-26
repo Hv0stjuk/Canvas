@@ -2,8 +2,9 @@ var canvas = document.getElementById("draw");
 
 var ctx = canvas.getContext("2d");
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = window.innerWidth - 25;
+canvas.height = window.innerHeight - 20;
+
 
 ctx.strokeStyle = "#BADA55";
 ctx.lineJoin = "round";
