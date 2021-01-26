@@ -2,8 +2,8 @@ var canvas = document.getElementById("draw");
 
 var ctx = canvas.getContext("2d");
 
-canvas.width = window.innerWidth - 25;
-canvas.height = window.innerHeight - 20;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 
 ctx.strokeStyle = "#BADA55";
